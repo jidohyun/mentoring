@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>랜덤숫자 생성</title>
+</head>
+<body>
+    <h2 id="text"></h2>
+    <button id="btn">생성</button>
+    <script>
+
+      const getRandom = (min, max) => Math.floor(Math.random() * (max - min) + min);
+      document.getElementById('btn').addEventListener('click', function(){
+        document.getElementById('text').innerHTML = getRandom(1, 100);
+      });
+      
+    </script>
+</body>
+</html> 
