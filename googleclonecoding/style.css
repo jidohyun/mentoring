@@ -1,28 +1,43 @@
+body {
+    height: 100%;
+
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 header {
-    position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 
-.logo {
-    position: absolute;
-    top: 250px;
-    left: 815px;
+.logo{
+    display: flex;
+    width: 100%;
+    height: 290px;
+    justify-content: center;
+    align-items: end;
 }
 
-header p {
-    margin-left: 15px;
-    margin-top: 15px;
-    font-size: 14px;
-    color: black;
+.immg {
+    
 }
 
-.left p {
-    margin-right: 10px;
-    float: left;
+.left {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 0 20px;
 }
 
-.right p {
-    float: right;
-    margin-right: 5px;
+.right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 .right img {
@@ -36,31 +51,35 @@ section {
 }
 
 .search input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+}
+
+.search {
     box-sizing: border-box;
-    position: absolute;
-    top: 370px;
-    left: 650px;
     width: 560px;
     height: 45px;
     border-radius: 30px;
-    border-color: rgba(0, 0, 0, 0.17);
-    border-width: 1px;
-    padding-left: 40px;
-}
-
-.search input:hover {
-    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.192);
+    border: 1px solid rgba(0, 0, 0, 0.17);
+    z-index: 1;
+    opacity: 1; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
 }
 
 .dop {
-    position: absolute;
+
     top: 380px;
     bottom: 430px;
     left: 670px;
 }
 
 .key {
-    position: absolute;
+
     top: 380px;
     bottom: 430px;
     left: 1110px;
@@ -76,7 +95,6 @@ section {
 }
 
 .mike {
-    position: absolute;
     top: 375px;
     bottom: 430px;
     left: 1160px;
@@ -84,7 +102,7 @@ section {
 }
 
 .searcher {
-    position: absolute;
+
     left: 810px;
     top: 450px;
     height: 34px;
@@ -102,7 +120,7 @@ section {
 }
 
 .tooltip-mike {
-    position: relative;
+
     top: 308px;
     left: 280px;
     background-color: black;
@@ -111,7 +129,7 @@ section {
 }
 
 .tooltip-key {
-    position: relative;
+
     top: 340px;
     left: 235px;
     background-color: black;
@@ -120,7 +138,6 @@ section {
 }
 
 .feel {
-    position: absolute;
     left: 920px;
     top: 450px;
     height: 34px;
@@ -133,11 +150,9 @@ section {
 
 footer {
     box-sizing: border-box;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
     background-color: rgba(0, 0, 0, 0.052);
     width: 100%;
+    display: flex;
     color: rgba(0, 0, 0, 0.644);
 }
 
@@ -162,5 +177,70 @@ footer {
 }
 
 .bottomr {
-    margin-left: 1600px;
+}
+
+#inp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.dop_class {
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+}
+
+.key_class {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    padding: 0 8px;
+    gap: 8px;
+}
+
+.mike_class {
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+}
+
+.dop_ {
+    background: url('./assets/dop.png') no-repeat center;
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+
+.class_ {
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: -5px;
+    align-items: stretch;
+    flex-direction: row;
+    height: 44px;
+}
+
+.contaier {
+    display: flex;
+    height: calc(100vh - 80px);
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
