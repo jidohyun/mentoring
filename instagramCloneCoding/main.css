@@ -1,0 +1,134 @@
+/* body{
+    height: 80vh;
+} */
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+    height: 80vh;
+    margin-top: 32px;
+    padding-bottom: 32px;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    color: #737373;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.under__footer{
+    display: flex;
+    justify-content: center;
+    color: #737373;
+    font-size: 12px;
+    margin-top: 22px;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.imgg{
+    width: 384px;
+    height: 579px;
+}
+
+.login__box{
+    width: 348px;
+    height: 409px;
+    border: 1px solid #DBDBDB;
+    border-radius: 2px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 50px;
+}
+.found__account{
+    width: 348px;
+    height: 62px;
+    text-align: center;
+    border: 1px solid #DBDBDB;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box__all{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.app__{
+    width: 348px;
+    height: 50px;
+}
+
+.imges{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.search input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+    
+}
+
+.inpp{
+    box-sizing: border-box;
+    width: 267px;
+    height: 38px;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.17);
+    z-index: 1;
+    opacity: 1; 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 0 4px;
+}
+
+.search{
+    width: 268px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.login{
+    width: 267px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #4CB5F9;
+    border: 0px;
+}
+
+.line{
+    width: 103px;
+    height: 1px;
+    background-color: #DBDBDB;
+}
+
+.facebook__login{
+    background-color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
