@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TodoList</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <div class="in-container">
+        <div class="inp">
+          <form class="header" action="" >
+            <input type="text" required id="inpp">
+            <button id="Add_btn">Add</button>
+          </form>
+        </div>
+        <div class="count">
+          <span id="text">Today's TodoList</span>
+          <span id="count"></span>
+        </div>
+        <div class="box">
+          <div class="todobox">
+            <!-- <div class="list-item">
+              <button class="done-btn">✔︎</button>
+              <span class="hi-text">ㄴ</span>
+              <span class="time">오후 7:25:39</span>
+              <button class="del-btn">❌</button>
+            </div> -->
+          </div>
+        </div>
+        <div class="btn-box">
+          <button type="button" id="btn">Clear</button>
+        </div>
+      </div>
+    </div>
+    <div class="modal__background">
+      <div class="modal__box">
+        <p id="text">are u sure?</p>
+        <div class="ansbtn">
+          <button type="button" id="YES">YES</button>
+          <button type="button" id="NO">NO</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
