@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(204, 201, 201);
+    height: 5000px;
+}
+
+:root {
+    --sidebar-width: 270px;
+    --sidebar-height: 90vh;
+}
+
+.sidebar {
+    position: fixed;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: var(--sidebar-width);
+    min-height: var(--sidebar-height);
+    margin-top: calc((100vh - var(--sidebar-height)) / 2);
+    border-radius: 20px;
+    transform: translate(calc(var(--sidebar-width) * -0.8), 0);  /* X축 이동, Y축 고정 */
+    transition: .5s;
+}
+
+.sidebar:hover {
+    transform: translate(-20px, 0);
+}
+
+/* home */
+#home {
+    display: flex;
+    align-items: center;
+    width: 17vh;
+    height: 4vh;
+    gap: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.flex__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home__img {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+/* profile */
+#profile {
+    display: flex;
+    align-items: center;
+    width: 17vh;
+    height: 4vh;
+    gap: 10px;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#profile__img {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+/* order */
+#order {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 17vh;
+    height: 4vh;
+    gap: 10px;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#order__img {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+/* shoping */
+#shoping {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 17vh;
+    height: 4vh;
+    gap: 10px;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#shoping__img {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+#hr {
+    width: 80%;
+    background-color: rgb(189, 181, 181);
+    height: 1px;
+    margin-left: 15px;
+    
+}
+
+#close {
+    width: 30px;
+    height: 30px;
+    margin: 10px 5px;
+    cursor: pointer;
+    background-color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#close:hover {
+    background-color: #ebe7e7;
+    
+}
+/* hover */
+
+.sidebar :hover {
+    color: black;
+    background-color: #ebe7e7;
+}
+
+/* text */
+
+p {
+    color: #888888;
+    margin-left: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
