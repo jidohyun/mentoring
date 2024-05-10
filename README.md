@@ -1,4 +1,4 @@
-![image](https://github.com/map12345678/mentoring/assets/158432938/f1821810-509a-48fe-a895-d2a5aa43dad4)# mentoring
+# mentoring
 
 ### 프론트엔드 멘토링을 하며 완성한 과제들을 업로드 하는 곳 입니다
 
